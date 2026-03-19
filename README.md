@@ -9,6 +9,6 @@ Responsive, multi-page website built with HTML, CSS, and JavaScript
 
 ## How to View
 
-### Option 1: View live in your browser (GitHub Pages)
+View live in your browser (GitHub Pages): 
 Once GitHub Pages is enabled (see below), open:
 https://emilywilson-dev.github.io/tech-stream/
