@@ -1,6 +1,6 @@
 # tech-stream
 
-Responsive, multi-pagte website built with HTML, CSS, and JavaScript
+Responsive, multi-page website built with HTML, CSS, and JavaScript
 
 ## Features
 - Fully responsive
