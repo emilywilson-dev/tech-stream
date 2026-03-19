@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+  <header id="site-header">
+    <div id="header-container">
+      <div id="left-section">
+        <img src="assets/logo.png" alt="TechStream Logo" id="logo">
+        <h1 id="company-name">TechStream</h1>
+      </div>
+      <div id="right-section">
+        <button id="nav-toggle">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+        <nav id="dropdown-nav">
+          <ul id="nav-links">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="contact-hero">
+      <div id="contact-hero-container">
+        <div id="contact-text-content">
+          <h1 id="contact-title">GET IN TOUCH</h1>
+        <h2 id="contact-subtitle">Let's start a conversation.</h2>
+        <p id="contact-text">Ready to transform your digital presence? Fill out the form or reach out to us directly. We're excited to hear about your project.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contacts">
+      <div id="contacts-container">
+        <article class="contact-card">
+          <div class="right-section">
+            <img src="assets/address-icon.png" alt="Address Icon">
+          </div>
+          <div class="left-section">
+            <h1>Visit Us</h1>
+            <p>123 Innovation Drive, Suite 400,<br> San Francisco, CA 94102</p>
+          </div>
+        </article>
+        <article class="contact-card">
+          <div class="right-section">
+            <img src="assets/email-icon.png" alt="Email Icon">
+          </div>
+          <div class="left-section">
+            <h1>Email Us</h1>
+            <p>contact@techstream.com</p>
+            <p>support@techstream.com</p>
+          </div>
+        </article>
+        <article class="contact-card">
+          <div class="right-section">
+            <img src="assets/phone-icon.png" alt="Call Us Icon">
+          </div>
+          <div class="left-section">
+            <h1>Call Us</h1>
+            <p>+1 (555) 123-4567</p>
+            <p>Mon - Fri: 9am - 5pm PST</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="message-section">
+      <div id="message-container">
+          <input type="text" class="input" placeholder="First Name">
+          <input type="text" class="input" placeholder="Last Name">
+          <input type="email" class="input" placeholder="Email">
+          <select name="items" id="dropdown-menu" class="input">
+            <option value="1">General Inquiry</option>
+            <option value="2">Project Proposal</option>
+            <option value="3">Support</option>
+            <option value="4">Careers</option>
+          </select>
+          <textarea class="input" placeholder="Your Message"></textarea>
+          <button id="submit-btn">Submit</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="footer-container">
+      <div id="footer-grid">
+         <div id="grid-1">
+        <div id="logo-and-title">
+      <img src="assets/logo.png" alt="TechStream Logo" id="logo">
+        <h1 id="footer-company-name">TechStream</h1>
+      </div>
+      <p class="footer-text">Empowering businesses with cutting-edge digital solutions. We build the future, one line of code at a time.</p>
+      <div id="footer-social-links">
+        <a href="https://example.com">
+          <img src="assets/twitter.png" alt="Twitter" class="social-link">
+        </a>
+        <a href="https://example.com">
+          <img src="assets/linkedin.png" alt="LinkedIn" class="social-link">
+        </a>
+        <a href="https://example.com">
+          <img src="assets/github.png" alt="GitHub" class="social-link">
+        </a>
+      </div>
+      </div>
+      <div id="grid-2">
+        <p class="footer-section-label">Company</p>
+      <div class="footer-links">
+        <a class="footer-link" href="about.html">About Us</a>
+        <a class="footer-link" href="https://example.com">Careers</a>
+        <a class="footer-link" href="https://example.com">Blog</a>
+        <a class="footer-link" href="https://example.com">Press</a>
+      </div>
+      </div>
+      <div id="grid-3">
+        <p class="footer-section-label">Services</p>
+      <div class="footer-links">
+        <a class="footer-link" href="https://example.com">Web Development</a>
+        <a class="footer-link" href="https://example.com">Mobile Apps</a>
+        <a class="footer-link" href="https://example.com">UI/UX Design</a>
+        <a class="footer-link" href="https://example.com">Cloud Solutions</a>
+      </div>
+      </div>
+      <div id="grid-4">
+        <p class="footer-section-label">Stay Updated</p>
+      <p class="footer-text">Subscribe to our newsletter for the latest tech trends.</p>
+      <div id="textbox">
+        <input id="enter-email" type="text" placeholder="Enter email">
+        <button id="arrow-btn">&rarr;</button>
+      </div>
+      </div>
+      </div>
+     
+      
+      <div id="footer-border"></div>
+      <p id="copyright">© 2024 TechStream Solutions. All rights reserved.</p>
+      <div id="footer-bottom-links">
+        <a class="footer-bottom-link" href="https://example.com">Privacy Policy</a>
+        <a class="footer-bottom-link" href="https://example.com">Terms of Service</a>
+      </div>
+
+    </div>
+  </footer>
+  <script src="scripts/nav.js"></script>
+</body>
+</html>
