@@ -3,9 +3,9 @@
 Responsive, multi-pagte website built with HTML, CSS, and JavaScript
 
 ## Features
--Fully responsive
--Mobile-first
--Responisve Navigation
+- Fully responsive
+- Mobile-first
+- Responisve Navigation
 
 ## How to View
 
